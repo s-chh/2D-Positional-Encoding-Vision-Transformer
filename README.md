@@ -10,7 +10,7 @@ Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnabl
 
 
 ## Run commands (also available in <a href="scripts.sh">scripts.sh</a>): <br>
-Different positional embeddings can be chosen using the pos_embed argument. Example:
+Different positional embeddings can be chosen using the <strong>pos_embed</strong> argument. Example:
 <table>
   <tr>
     <th>Positional Embedding Type</th>
@@ -37,7 +37,7 @@ Different positional embeddings can be chosen using the pos_embed argument. Exam
     <td>python main.py --dataset cifar10 --pos_embed <strong>rope</strong></td>
   </tr>
 </table>
-
+Change dataset to appropriate dataset.
 
 ## Results
 <table>
