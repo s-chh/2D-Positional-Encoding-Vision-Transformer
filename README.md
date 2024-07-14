@@ -9,6 +9,36 @@ Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnabl
 </ul>  
 
 
+# Run commands (also available in <a href="scripts.sh">scripts.sh</a>): <br>
+
+<table>
+  <tr>
+    <th>Dataset</th>
+    <th>Run command</th>
+    <th>Test Acc</th>
+  </tr>
+  <tr>
+    <td>MNIST</td>
+    <td>python main.py --dataset mnist --epochs 100</td>
+    <td><strong>99.5</strong></td>
+  </tr>
+  <tr>
+    <td>Fashion MNIST</td>
+    <td>python main.py --dataset fmnist</td>
+    <td><strong>92.3</strong></td>
+  </tr>
+  <tr>
+    <td>SVHN</td>
+    <td>python main.py --dataset svhn --n_channels 3 --image_size 32 --embed_dim 128 </td>
+    <td><strong>96.2</strong></td>
+  </tr>
+  <tr>
+    <td>CIFAR10</td>
+    <td>python main.py --dataset cifar10 --n_channels 3 --image_size 32 --embed_dim 128 </td>
+    <td>82.5 (<strong>86.3</strong> with RandAug)</td>
+  </tr>
+</table>
+
 
 ## Results
 <table>
@@ -45,6 +75,13 @@ Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnabl
 ## Splitting 2D to 1D positonal embeddings
 
 ## Classification Token:
+<ul>
+<li>No Position: No positional embeddings</li>
+<li>Learnable: Learns classification Token, which includes its positional embedding.</li>
+<li>Sinusoidal: No positional embedding is added to the classification token.</li>
+<li>Relative: One solution is not to update the classification token. Instead, a separate index (used 0 here) in the embedding lookup tables represents distances to the Classification token. </li>  
+<li>Rotatory: Sequences of patches start at 1 (instead of 0), and 0 represents the position of the classification token. Using a 0 index for classification token results in no change/rotation.</li>
+</ul>
 
 ## Transformer Config:
 
