@@ -66,7 +66,7 @@ Change dataset to appropriate dataset.
     <td></td>
   </tr>
   <tr>
-    <td>Rotary Position Embedding (Rope) </td>
+    <td>Rotary (Rope) </td>
     <td></td>
   </tr>
 </table>
