@@ -42,6 +42,10 @@
 </table>
 <br>
 
+## Splitting 2D to 1D positonal embeddings
+
+## Classification Token:
+
 ## Transformer Config:
 
 <table>
