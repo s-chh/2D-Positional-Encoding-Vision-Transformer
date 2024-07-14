@@ -1,6 +1,6 @@
 # Positional Embeddings for Vision Transformers (ViT)
+Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnable</strong>, <strong>Sinusoidal</strong>, <strong>Relative</strong>, and <strong>Rotary (RoPe)</strong>.
 <ul>
-  <li>Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnable</strong>, <strong>Sinusoidal</strong>, <strong>Relative</strong>, and <strong>Rotary (RoPe)</strong>.</li>
   <li>Works by splitting dimensions into two parts and implements 1D positional embeddings on each part.</li>
   <li>One part uses the x-positions sequence, and the other uses y-positions.</li>
   <li>Classification token is handled differently in all methods. Check below for more details.</li>
