@@ -10,31 +10,31 @@ Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnabl
 
 
 ## Run commands (also available in <a href="scripts.sh">scripts.sh</a>): <br>
+Different positional embeddings can be chosen using the pos_embed argument. Example:
 <table>
   <tr>
-    <th>Dataset</th>
+    <th>Positional Embedding Type</th>
     <th>Run command</th>
-    <th>Test Acc</th>
   </tr>
   <tr>
-    <td>MNIST</td>
-    <td>python main.py --dataset mnist --epochs 100</td>
-    <td><strong>99.5</strong></td>
+    <td>No Position</td>
+    <td>python main.py --dataset cifar10 --pos_embed none</td>
   </tr>
   <tr>
-    <td>Fashion MNIST</td>
-    <td>python main.py --dataset fmnist</td>
-    <td><strong>92.3</strong></td>
+    <td>Learnable</td>
+    <td>python main.py --dataset cifar10 --pos_embed learn</td>
   </tr>
   <tr>
-    <td>SVHN</td>
-    <td>python main.py --dataset svhn --n_channels 3 --image_size 32 --embed_dim 128 </td>
-    <td><strong>96.2</strong></td>
+    <td>Sinusoidal</td>
+    <td>python main.py --dataset cifar10 --pos_embed sinusoidal</td>
   </tr>
   <tr>
-    <td>CIFAR10</td>
-    <td>python main.py --dataset cifar10 --n_channels 3 --image_size 32 --embed_dim 128 </td>
-    <td>82.5 (<strong>86.3</strong> with RandAug)</td>
+    <td>Relative</td>
+    <td>python main.py --dataset cifar10 --pos_embed relative</td>
+  </tr>
+  <tr>
+    <td>Rotary (RoPe)</td>
+    <td>python main.py --dataset cifar10 --pos_embed rope</td>
   </tr>
 </table>
 
