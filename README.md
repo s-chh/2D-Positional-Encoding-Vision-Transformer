@@ -38,6 +38,7 @@ Different positional embeddings can be chosen using the <strong>pos_embed</stron
   </tr>
 </table>
 Change dataset to appropriate dataset.
+<br>
 
 ## Results
 <table>
