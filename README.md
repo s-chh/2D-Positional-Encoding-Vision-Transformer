@@ -1,5 +1,10 @@
 # ViT-2D-Positional-Embeddings
 ### Implementation of various 2D positional encodings for Vision Transformers.
+<ul>
+  <li>ViT used in a scaled-down version of the original ViT architecture from <a href="https://arxiv.org/pdf/2010.11929.pdf">An Image is Worth 16X16 Words and has only 800k parameters</a>. </li>
+  <li>Works with small datasets by using a smaller patch size of 4.</li>
+  <li>Implemented Positional Encodings: No Position Information, Learnable, Sinusoidal, Relative, and Rope.
+</ul>  
 
 ## Results
 
