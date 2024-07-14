@@ -8,10 +8,9 @@
   <li>Network used here in a scaled-down version of the original ViT with only 800k parameters</a>. </li>
   <li>Works with small datasets by using a smaller patch size of 4.</li>
 </ul>  
-
 <br>
-## Results
 
+## Results
 <table>
   <tr>
     <th>Positional Encoding Type</th>
