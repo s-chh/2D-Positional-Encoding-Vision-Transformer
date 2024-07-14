@@ -17,23 +17,23 @@ Different positional embeddings can be chosen using the <strong>pos_embed</stron
     <th>Run command</th>
   </tr>
   <tr>
-    <td>No Position</td>
+    <td>No Positional Embedding</td>
     <td>python main.py --dataset cifar10 --pos_embed <strong>none</strong></td>
   </tr>
   <tr>
-    <td>Learnable</td>
+    <td>Learnable Positional Embedding</td>
     <td>python main.py --dataset cifar10 --pos_embed <strong>learn</strong></td>
   </tr>
   <tr>
-    <td>Sinusoidal</td>
+    <td>Sinusoidal Positional Embedding</td>
     <td>python main.py --dataset cifar10 --pos_embed <strong>sinusoidal</strong></td>
   </tr>
   <tr>
-    <td>Relative</td>
+    <td>Relative Positional Embedding</td>
     <td>python main.py --dataset cifar10 --pos_embed <strong>relative</strong></td>
   </tr>
   <tr>
-    <td>Rotary (RoPe)</td>
+    <td>Rotary Position Embedding (Rope) </td>
     <td>python main.py --dataset cifar10 --pos_embed <strong>rope</strong></td>
   </tr>
 </table>
@@ -66,7 +66,7 @@ Change dataset to appropriate dataset.
     <td></td>
   </tr>
   <tr>
-    <td>Rotary Position Embedding</td>
+    <td>Rotary Position Embedding (Rope) </td>
     <td></td>
   </tr>
 </table>
