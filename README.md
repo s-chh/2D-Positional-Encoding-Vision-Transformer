@@ -1,4 +1,4 @@
-# Various Positional Embeddings for Vision Transformers (ViT).
+# Positional Embeddings for Vision Transformers (ViT).
 <ul>
   <li>Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnable</strong>, <strong>Sinusoidal</strong>, <strong>Relative</strong>, and <strong>RoPe</strong>.</li>
   <li>Works by splitting dimensions into two parts and implements 1D positional embeddings on each part.</li>
