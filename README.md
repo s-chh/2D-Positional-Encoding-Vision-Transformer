@@ -33,7 +33,7 @@ Different positional embeddings can be chosen using the <strong>pos_embed</stron
     <td>python main.py --dataset cifar10 --pos_embed <strong>relative</strong></td>
   </tr>
   <tr>
-    <td>Rotary Position Embedding (Rope) </td>
+    <td>Rotary (Rope) </td>
     <td>python main.py --dataset cifar10 --pos_embed <strong>rope</strong></td>
   </tr>
 </table>
