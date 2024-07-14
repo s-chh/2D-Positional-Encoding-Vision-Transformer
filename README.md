@@ -17,19 +17,19 @@ Different positional embeddings can be chosen using the <strong>pos_embed</stron
     <th>Run command</th>
   </tr>
   <tr>
-    <td>No Positional Embedding</td>
+    <td>No Position</td>
     <td>python main.py --dataset cifar10 --pos_embed <strong>none</strong></td>
   </tr>
   <tr>
-    <td>Learnable Positional Embedding</td>
+    <td>Learnable</td>
     <td>python main.py --dataset cifar10 --pos_embed <strong>learn</strong></td>
   </tr>
   <tr>
-    <td>Sinusoidal Positional Embedding</td>
+    <td>Sinusoidal</td>
     <td>python main.py --dataset cifar10 --pos_embed <strong>sinusoidal</strong></td>
   </tr>
   <tr>
-    <td>Relative Positional Embedding</td>
+    <td>Relative</td>
     <td>python main.py --dataset cifar10 --pos_embed <strong>relative</strong></td>
   </tr>
   <tr>
@@ -50,19 +50,19 @@ Change dataset to appropriate dataset.
     <th>CIFAR100</th>
   </tr>
   <tr>
-    <td>No Positional Embedding</td>
+    <td>No Position</td>
     <td></td>
   </tr>
   <tr>
-    <td>Learnable Positional Embedding</td>
+    <td>Learnable</td>
     <td></td>
   </tr>
   <tr>
-    <td>Sinusoidal Positional Embedding</td>
+    <td>Sinusoidal</td>
     <td></td>
   </tr>
   <tr>
-    <td>Relative Positional Embedding</td>
+    <td>Relative</td>
     <td></td>
   </tr>
   <tr>
@@ -76,7 +76,7 @@ Change dataset to appropriate dataset.
 
 ## Handling Classification Token:
 <ul>
-<li>No Position: No positional embeddings</li>
+<li>No Position: Nos</li>
 <li>Learnable: Learns classification Token, which includes its positional embedding.</li>
 <li>Sinusoidal: No positional embedding is added to the classification token.</li>
 <li>Relative: One solution is not to update the classification token. Instead, a separate index (used 0 here) in the embedding lookup tables represents distances to the Classification token. </li>  
