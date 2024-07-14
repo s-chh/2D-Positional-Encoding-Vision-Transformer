@@ -82,23 +82,23 @@ Change dataset to appropriate dataset.
   </tr>
   <tr>
     <td>No Position</td>
-    <td>No positional embedding for classification token</td>
+    <td>No positional embedding added to the Classification Token</td>
   </tr>
   <tr>
     <td>Learnable</td>
-    <td>Learnable Classification Token includes its positional embedding.</td>
+    <td>Learnable Classification Token also learns its positional embedding.</td>
   </tr>
   <tr>
     <td>Sinusoidal (Absolute)</td>
-    <td>No absolute positional embedding is provided to the classification token. Learnable Classification Token includes its positional embedding.</td>
+    <td>No positional embedding is provided to the Classification Token. Instead, the Classification Token learns its positional embedding.</td>
   </tr>
   <tr>
     <td>Relative</td>
-    <td>One solution is not to update the classification token. Instead, a separate index (used 0 here) in the embedding lookup tables represents distances to the Classification token.</td>
+    <td>One solution is not to use the Classification Token. Instead, a separate index (used 0 here) in the embedding lookup tables represents distances to the Classification token.</td>
   </tr>
   <tr>
     <td>Rotary (Rope) </td>
-    <td>Sequences of patches start at 1 (instead of 0), and 0 represents the position of the classification token. Using a 0 index for classification token results in no change/rotation.</td>
+    <td>Sequences of patches start at 1 (instead of 0), and 0 represents the position of the Classification Token. Using a 0 index for Classification Token results in no change/rotation.</td>
   </tr>
 </table>
 <br>
