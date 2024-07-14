@@ -9,7 +9,7 @@
   <li>Works with small datasets by using a smaller patch size of 4.</li>
 </ul>  
 
-<br><br>
+<br>
 ## Results
 
 <table>
