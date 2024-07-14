@@ -5,7 +5,8 @@
   <li>Works with small datasets by using a smaller patch size of 4.</li>
   <li>Implemented Positional Encodings: No Position Information, Learnable, Sinusoidal, Relative, and Rope.</li>
   <li>Works by splitting dimensions into two parts and implements 1D positional embeddings on each part.</li>
-  <li>One part is used for the sequence of x-positions, and the other for y-positions. </li>
+  <li>One part uses the x-positions sequence, and the other uses y-positions.</li>
+  <li>Classification token is handled differently in all methods. Check below for more details.</li>
 </ul>  
 
 <br><br>
