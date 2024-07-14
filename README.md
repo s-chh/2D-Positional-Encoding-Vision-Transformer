@@ -9,8 +9,7 @@ Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnabl
 </ul>  
 
 
-# Run commands (also available in <a href="scripts.sh">scripts.sh</a>): <br>
-
+## Run commands (also available in <a href="scripts.sh">scripts.sh</a>): <br>
 <table>
   <tr>
     <th>Dataset</th>
@@ -72,9 +71,9 @@ Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnabl
 </table>
 <br>
 
-## Splitting 2D to 1D positonal embeddings
+## Splitting 2D to Mutiple 1D Positonal Embeddings:
 
-## Classification Token:
+## Handling Classification Token:
 <ul>
 <li>No Position: No positional embeddings</li>
 <li>Learnable: Learns classification Token, which includes its positional embedding.</li>
@@ -84,7 +83,6 @@ Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnabl
 </ul>
 
 ## Transformer Config:
-
 <table>
   <tr>
     <td>Input Size</td>
