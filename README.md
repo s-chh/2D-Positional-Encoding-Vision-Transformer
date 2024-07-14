@@ -8,7 +8,7 @@ Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnabl
   <li>Works with small datasets by using a smaller patch size of 4.</li>
 </ul>  
 
-
+<br>
 ## Run commands (also available in <a href="scripts.sh">scripts.sh</a>): <br>
 Different positional embeddings can be chosen using the <strong>pos_embed</strong> argument. Example:
 <table>
