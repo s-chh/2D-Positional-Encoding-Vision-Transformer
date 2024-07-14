@@ -39,55 +39,40 @@
 
 <table>
   <tr>
-    <th>Config</th>
-    <th>MNIST and FMNIST</th>
-    <th>SVHN and CIFAR10</th>
-  </tr>
-  <tr>
     <td>Input Size</td>
-    <td> 1 X 28 X 28   </td>
     <td> 3 X 32 X 32  </td>
   </tr>
-
   <tr>
     <td>Patch Size</td>
-    <td>4</td>
     <td>4</td>
   </tr>
   <tr>
     <td>Sequence Length</td>
-    <td>7*7 = 49</td>
     <td>8*8 = 64</td>
   </tr>
   <tr>
     <td>Embedding Size </td>
-    <td>64</td>
     <td>128</td>
   </tr>
   <tr>
-    <td>Parameters </td>
-    <td>210k</td>
-    <td>820k</td>
-  </tr>
-  <tr>
     <td>Num of Layers </td>
-    <td>6</td>
     <td>6</td>
   </tr>
   <tr>
     <td>Num of Heads </td>
     <td>4</td>
-    <td>4</td>
   </tr>
   <tr>
     <td>Forward Multiplier </td>
-    <td>2</td>
     <td>2</td>
   </tr>
   <tr>
     <td>Dropout </td>
     <td>0.1</td>
-    <td>0.1</td>
+  </tr>
+  <tr>
+    <td>Parameters </td>
+    <td>820k</td>
   </tr>
 </table>
 
