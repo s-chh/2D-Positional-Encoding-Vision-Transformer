@@ -75,44 +75,33 @@ Change dataset to appropriate dataset.
 ## Splitting 2D to Mutiple 1D Positonal Embeddings:
 
 ## Handling Classification Token:
-## Results
 <table>
   <tr>
     <th>Positional Encoding Type</th>
-    <th>FashionMNIST</th>
-    <th>SVHN</th>
-    <th>CIFAR10</th>
-    <th>CIFAR100</th>
+    <th>Classification Token</th>
   </tr>
   <tr>
     <td>No Position</td>
-    <td></td>
+    <td>No positional embedding for classification token</td>
   </tr>
   <tr>
     <td>Learnable</td>
-    <td></td>
+    <td>Learnable Classification Token includes its positional embedding.</td>
   </tr>
   <tr>
     <td>Sinusoidal (Absolute)</td>
-    <td></td>
+    <td>No absolute positional embedding is provided to the classification token. Learnable Classification Token includes its positional embedding.</td>
   </tr>
   <tr>
     <td>Relative</td>
-    <td></td>
+    <td>One solution is not to update the classification token. Instead, a separate index (used 0 here) in the embedding lookup tables represents distances to the Classification token.</td>
   </tr>
   <tr>
     <td>Rotary (Rope) </td>
-    <td></td>
+    <td>Sequences of patches start at 1 (instead of 0), and 0 represents the position of the classification token. Using a 0 index for classification token results in no change/rotation.</td>
   </tr>
 </table>
 <br>
-<ul>
-<li>No Position: Nos</li>
-<li>Learnable: Learns classification Token, which includes its positional embedding.</li>
-<li>Sinusoidal: No positional embedding is added to the classification token.</li>
-<li>Relative: One solution is not to update the classification token. Instead, a separate index (used 0 here) in the embedding lookup tables represents distances to the Classification token. </li>  
-<li>Rotatory: Sequences of patches start at 1 (instead of 0), and 0 represents the position of the classification token. Using a 0 index for classification token results in no change/rotation.</li>
-</ul>
 
 ## Transformer Config:
 <table>
