@@ -4,7 +4,8 @@
   <li>Network in a scaled-down version of the original ViT architecture with only 800k parameters</a>. </li>
   <li>Works with small datasets by using a smaller patch size of 4.</li>
   <li>Implemented Positional Encodings: No Position Information, Learnable, Sinusoidal, Relative, and Rope.</li>
-  <li>Works by splitting dimensions into two parts. One part is used for the sequence of x-positions, and the other one for y-positions.</li>
+  <li>Works by splitting dimensions into two parts and implements 1D positional embeddings on each part.</li>
+  <li>One part is used for the sequence of x-positions, and the other for y-positions. </li>
 </ul>  
 
 <br><br>
