@@ -2,7 +2,7 @@
 Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnable</strong>, <strong>Sinusoidal (Absolute)</strong>, <strong>Relative</strong>, and <strong>Rotary (RoPe)</strong>.
 <ul>
   <li>Works by splitting dimensions into two parts and implements 1D positional embeddings on each part.</li>
-  <li>One part uses the x-positions sequence, and the other uses y-positions.  <a href="[https://arxiv.org/pdf/2010.11929.pdf](https://github.com/s-chh/Vision-Transformer-ViT-Positional-Embeddings/blob/main/README.md#splitting-2d-to-1d-positonal-embeddings)">More details</a></li>
+  <li>One part uses the x-positions sequence, and the other uses y-positions.</li>
   <li>Classification token is handled differently in all methods. Check below for more details.</li>
   <li>Network used here in a scaled-down version of the original ViT with only 800k parameters</a>. </li>
   <li>Works with small datasets by using a smaller patch size of 4.</li>
