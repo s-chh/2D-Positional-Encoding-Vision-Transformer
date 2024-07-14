@@ -9,7 +9,7 @@
 </ul>  
 <br>
 
-### Results
+## Results
 <table>
   <tr>
     <th>Positional Encoding Type</th>
@@ -41,11 +41,11 @@
 </table>
 <br>
 
-### Splitting 2D to 1D positonal embeddings
+## Splitting 2D to 1D positonal embeddings
 
-### Classification Token:
+## Classification Token:
 
-### Transformer Config:
+## Transformer Config:
 
 <table>
   <tr>
