@@ -25,7 +25,7 @@ Different positional embeddings can be chosen using the <strong>pos_embed</stron
     <td>python main.py --dataset cifar10 --pos_embed <strong>learn</strong></td>
   </tr>
   <tr>
-    <td>Sinusoidal</td>
+    <td>Sinusoidal (Absolute)</td>
     <td>python main.py --dataset cifar10 --pos_embed <strong>sinusoidal</strong></td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ Change dataset to appropriate dataset.
     <td></td>
   </tr>
   <tr>
-    <td>Sinusoidal</td>
+    <td>Sinusoidal (Absolute)</td>
     <td></td>
   </tr>
   <tr>
@@ -75,6 +75,37 @@ Change dataset to appropriate dataset.
 ## Splitting 2D to Mutiple 1D Positonal Embeddings:
 
 ## Handling Classification Token:
+## Results
+<table>
+  <tr>
+    <th>Positional Encoding Type</th>
+    <th>FashionMNIST</th>
+    <th>SVHN</th>
+    <th>CIFAR10</th>
+    <th>CIFAR100</th>
+  </tr>
+  <tr>
+    <td>No Position</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Learnable</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sinusoidal (Absolute)</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Relative</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Rotary (Rope) </td>
+    <td></td>
+  </tr>
+</table>
+<br>
 <ul>
 <li>No Position: Nos</li>
 <li>Learnable: Learns classification Token, which includes its positional embedding.</li>
