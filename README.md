@@ -105,7 +105,43 @@ The dataset can be changed using the dataset argument.
 </table>
 <br>
 
-## Transformer Config:
+## Parameters Comparison:
+<table>
+  <tr>
+    <th>Positional Encoding Type</th>
+    <th>Additional Parameters Explaination</th>
+    <th>Parameters Count</th>
+  </tr>
+  <tr>
+    <td>No Position</td>
+    <td>No parameters</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Learnable</td>
+    <td>Number of Patches * Embed dim</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Sinusoidal (Absolute)</td>
+    <td>No learned parameters</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Relative</td>
+    <td>No learned parameters</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Rotary (Rope) </td>
+    <td>No learned parameters</td>
+    <td>0</td>
+  </tr>
+  
+</table>
+
+
+## Base Transformer Config:
 <table>
   <tr>
     <td>Input Size</td>
