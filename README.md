@@ -120,7 +120,7 @@ The dataset can be changed using the dataset argument.
   <tr>
     <td>Learnable</td>
     <td>Number of Patches * Embed dim</td>
-    <td>64 X 128 = 8192</td>
+    <td>64 x 128 = 8192</td>
   </tr>
   <tr>
     <td>Sinusoidal (Absolute)</td>
