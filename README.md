@@ -107,6 +107,7 @@ The dataset can be changed using the dataset argument.
 <br>
 
 ## Parameters Comparison:
+Comparison of additional learned parameters added by different positional embeddings. 
 <table>
   <tr>
     <th>Positional Encoding Type</th>
