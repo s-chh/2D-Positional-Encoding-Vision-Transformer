@@ -30,7 +30,7 @@ Different positional embeddings can be chosen using the <strong>pos_embed</stron
   </tr>
   <tr>
     <td>Relative</td>
-    <td>python main.py --dataset cifar10 --pos_embed <strong>relative</strong></td>
+    <td>python main.py --dataset cifar10 --pos_embed <strong>relative</strong> --max_relative_distance 2</td>
   </tr>
   <tr>
     <td>Rotary (Rope) </td>
