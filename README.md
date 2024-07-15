@@ -129,8 +129,8 @@ The dataset can be changed using the dataset argument.
   </tr>
   <tr>
     <td>Relative</td>
-    <td></td>
-    <td></td>
+    <td> (2 * max_relative_distance + 1 + 1) * Embed dim * 2 per encoder block</td>
+    <td> 6 x 128 x 2 x 6 = 9216 </td>
   </tr>
   <tr>
     <td>Rotary (Rope) </td>
@@ -157,7 +157,7 @@ Below are the base training and network details used in the experiments.
     <td>8*8 = 64</td>
   </tr>
   <tr>
-    <td>Embedding Size </td>
+    <td>Embedding Dim </td>
     <td>128</td>
   </tr>
   <tr>
