@@ -79,6 +79,7 @@ Results on test sets of different datasets when ViT is trained using different p
 ## Splitting X and Y-axis to Multiple 1D Positonal Embeddings:
 
 ## Handling Classification Token:
+Many of the Positional Embeddings were designed to work without classification tokens. When a classification token is present, some techniques (Sinusoidal, Relative, and Rotary) must be adapted.
 <table>
   <tr>
     <th>Positional Encoding Type</th>
