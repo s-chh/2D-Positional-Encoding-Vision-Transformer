@@ -182,7 +182,8 @@ Below are the base training and network details used in the experiments.
 </table>
 <br>
 
-Note: This repo is built upon: <a href="https://github.com/s-chh/PyTorch-Scratch-Vision-Transformer-ViT">Vision Transformers from Scratch in PyTorch</a>
+Note: This repo is built upon the following GitHub repo: <a href="https://github.com/s-chh/PyTorch-Scratch-Vision-Transformer-ViT">Vision Transformers from Scratch in PyTorch</a>
+<br>
 
 ### Citations
 ```
