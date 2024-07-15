@@ -185,10 +185,32 @@ This repo is built upon: <a href="https://github.com/s-chh/PyTorch-Scratch-Visio
 
 ### Citations
 ```
-@article{chhabra2022patchrot,
-  title={PatchRot: A Self-Supervised Technique for Training Vision Transformers},
-  author={Chhabra, Sachin and Dutta, Prabal Bijoy and Venkateswara, Hemanth and Li, Baoxin},
-  journal={arXiv preprint arXiv:2210.15722},
-  year={2022}
+@article{vaswani2017attention,
+  title={Attention is all you need},
+  author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
+  journal={Advances in neural information processing systems},
+  volume={30},
+  year={2017}
+}
+@inproceedings{dosovitskiy2020image,
+  title={An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
+  author={Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and Gelly, Sylvain and others},
+  booktitle={International Conference on Learning Representations},
+  year={2020}
+}
+@article{shaw2018self,
+  title={Self-attention with relative position representations},
+  author={Shaw, Peter and Uszkoreit, Jakob and Vaswani, Ashish},
+  journal={arXiv preprint arXiv:1803.02155},
+  year={2018}
+}
+@article{su2024roformer,
+  title={Roformer: Enhanced transformer with rotary position embedding},
+  author={Su, Jianlin and Ahmed, Murtadha and Lu, Yu and Pan, Shengfeng and Bo, Wen and Liu, Yunfeng},
+  journal={Neurocomputing},
+  volume={568},
+  pages={127063},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
