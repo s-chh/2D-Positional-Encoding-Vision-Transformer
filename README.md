@@ -147,38 +147,74 @@ Below are the base training and network details used in the experiments.
   <tr>
     <td>Input Size</td>
     <td> 3 X 32 X 32  </td>
+    <td></td>
+    <td></td>
+    <td>Epochs</td>
+    <td> 200  </td>
   </tr>
   <tr>
     <td>Patch Size</td>
     <td>4</td>
+    <td></td>
+    <td></td>
+    <td>Batch Size</td>
+    <td> 128  </td>
   </tr>
   <tr>
     <td>Sequence Length</td>
     <td>8*8 = 64</td>
+    <td></td>
+    <td></td>
+    <td>Optimizer</td>
+    <td> AdamW  </td>
   </tr>
   <tr>
     <td>Embedding Dim </td>
     <td>128</td>
+    <td></td>
+    <td></td>
+    <td>Learning Rate</td>
+    <td> 5e-4  </td>
   </tr>
   <tr>
     <td>Num of Layers </td>
     <td>6</td>
+    <td></td>
+    <td></td>
+    <td>Weight Decay</td>
+    <td> 1e-3  </td>
   </tr>
   <tr>
     <td>Num of Heads </td>
     <td>4</td>
+    <td></td>
+    <td></td>
+    <td>Warmup epochs</td>
+    <td> 10 </td>
   </tr>
   <tr>
     <td>Forward Multiplier </td>
     <td>2</td>
+    <td></td>
+    <td></td>
+    <td>Learning Rate Decay</td>
+    <td> Cosine  </td>
   </tr>
   <tr>
     <td>Dropout </td>
     <td>0.1</td>
+    <td></td>
+    <td></td>
+    <td>Learning Rate</td>
+    <td> 5e-4  </td>
   </tr>
   <tr>
     <td>Parameters </td>
     <td>820k</td>
+    <td></td>
+    <td></td>
+    <td>Learning Rate</td>
+    <td> 5e-4  </td>
   </tr>
 </table>
 <br>
