@@ -114,13 +114,13 @@ The dataset can be changed using the dataset argument.
   </tr>
   <tr>
     <td>No Position</td>
-    <td>No parameters</td>
+    <td>N/A</td>
     <td>0</td>
   </tr>
   <tr>
     <td>Learnable</td>
     <td>Number of Patches * Embed dim</td>
-    <td></td>
+    <td>64 X 128 = 8192</td>
   </tr>
   <tr>
     <td>Sinusoidal (Absolute)</td>
@@ -129,8 +129,8 @@ The dataset can be changed using the dataset argument.
   </tr>
   <tr>
     <td>Relative</td>
-    <td>No learned parameters</td>
-    <td>0</td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Rotary (Rope) </td>
