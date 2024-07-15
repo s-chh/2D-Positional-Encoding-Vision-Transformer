@@ -74,7 +74,7 @@ The dataset can be changed using the dataset argument.
 </table>
 <br>
 
-## Splitting 2D to Mutiple 1D Positonal Embeddings:
+## Splitting X and Y-axis to Multiple 1D Positonal Embeddings:
 
 ## Handling Classification Token:
 <table>
