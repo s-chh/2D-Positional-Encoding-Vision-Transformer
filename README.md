@@ -137,9 +137,8 @@ The dataset can be changed using the dataset argument.
     <td>No learned parameters</td>
     <td>0</td>
   </tr>
-  
 </table>
-
+<br>
 
 ## Base Transformer Config:
 Below are the base training and network details used in the experiments.
