@@ -181,7 +181,7 @@ The dataset can be changed using the dataset argument.
   </tr>
 </table>
 
-This repo is built upon my previous Vision Transformer repository: <a href="https://github.com/s-chh/PyTorch-Scratch-Vision-Transformer-ViT">Vision Transformers from Scratch in PyTorch</a>
+This repo is built upon: <a href="https://github.com/s-chh/PyTorch-Scratch-Vision-Transformer-ViT">Vision Transformers from Scratch in PyTorch</a>
 
 ### Citations
 ```
