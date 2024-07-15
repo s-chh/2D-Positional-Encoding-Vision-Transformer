@@ -142,6 +142,7 @@ The dataset can be changed using the dataset argument.
 
 
 ## Base Transformer Config:
+Below are the base training and network details used in the experiments.
 <table>
   <tr>
     <td>Input Size</td>
@@ -180,8 +181,9 @@ The dataset can be changed using the dataset argument.
     <td>820k</td>
   </tr>
 </table>
+<br>
 
-This repo is built upon: <a href="https://github.com/s-chh/PyTorch-Scratch-Vision-Transformer-ViT">Vision Transformers from Scratch in PyTorch</a>
+Note: This repo is built upon: <a href="https://github.com/s-chh/PyTorch-Scratch-Vision-Transformer-ViT">Vision Transformers from Scratch in PyTorch</a>
 
 ### Citations
 ```
