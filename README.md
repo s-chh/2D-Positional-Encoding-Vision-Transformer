@@ -37,9 +37,9 @@ Different positional embeddings can be chosen using the <strong>pos_embed</stron
     <td>python main.py --dataset cifar10 --pos_embed <strong>rope</strong></td>
   </tr>
 </table>
-Change the dataset argument to the appropriate dataset.
-<br>
 Relative Positional Embedding uses a "max_relative_distance" hyper-parameter and is used to clamp distances to be between -max_relative_distance and max_relative_distance.
+<br>
+The dataset can be changed using the dataset argument.
 <br>
 
 ## Results
