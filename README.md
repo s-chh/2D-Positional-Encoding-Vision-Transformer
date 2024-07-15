@@ -2,7 +2,7 @@
 Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnable</strong>, <strong>Sinusoidal (Absolute)</strong>, <strong>Relative</strong>, and <strong>Rotary (RoPe)</strong>.
 <ul>
   <li>Works by splitting dimensions into two parts and implements 1D positional embeddings on each part.</li>
-  <li>One part uses the x-positions sequence, and the other uses y-positions.</li>
+  <li>One part uses the x-positions sequence, and the other uses y-positions. Check below for more details.</li>
   <li>Classification token is handled differently in all methods. Check below for more details.</li>
   <li>Network used here in a scaled-down version of the original ViT with only 800k parameters</a>. </li>
   <li>Works with small datasets by using a smaller patch size of 4.</li>
@@ -84,7 +84,7 @@ The dataset can be changed using the dataset argument.
   </tr>
   <tr>
     <td>No Position</td>
-    <td>No positional embedding added to the Classification Token</td>
+    <td>No positional embedding added to the Classification Token.</td>
   </tr>
   <tr>
     <td>Learnable</td>
