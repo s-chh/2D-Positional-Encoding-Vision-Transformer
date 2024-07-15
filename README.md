@@ -181,35 +181,15 @@ The dataset can be changed using the dataset argument.
   </tr>
 </table>
 
-<!--
-<br><br>
-### Training Graphs:
+This repo is built upon my previous Vision Transformer repository: <a href="[scripts.sh](https://github.com/s-chh/PyTorch-Scratch-Vision-Transformer-ViT)">Vision Transformer from Scratch</a>
 
-<table>
-  <tr>
-    <th>Dataset</th>
-    <th>Accuracy</th>
-    <th>Loss</th>
-  </tr>
-  <tr>
-    <td>MNIST</td>
-    <td> <img src="outputs/mnist/graph_accuracy.png"  alt="MNIST_accuracy" width = 500px height = 250px> </td>
-    <td> <img src="outputs/mnist/graph_loss.png"  alt="MNIST_loss" width = 500px height = 250px ></td>
-  </tr>
-  <tr>
-    <td>FMNIST</td>
-    <td> <img src="outputs/fmnist/graph_accuracy.png"  alt="FMNIST_accuracy" width = 500px height = 250px> </td>
-    <td> <img src="outputs/fmnist/graph_loss.png"  alt="FMNIST_loss" width = 500px height = 250px ></td>
-  </tr>
-  <tr>
-    <td>SVHN</td>
-    <td> <img src="outputs/svhn/graph_accuracy.png"  alt="SVHN_accuracy" width = 500px height = 250px> </td>
-    <td> <img src="outputs/svhn/graph_loss.png"  alt="SVHN_loss" width = 500px height = 250px ></td>
-  </tr>
-  <tr>
-    <td>CIFAR10</td>
-    <td> <img src="outputs/cifar10/graph_accuracy.png"  alt="CIFAR10_accuracy" width = 500px height = 250px> </td>
-    <td> <img src="outputs/cifar10/graph_loss.png"  alt="CIFAR10_loss" width = 500px height = 250px ></td>
-  </tr>
-</table>
--->
+
+### Citations
+```
+@article{chhabra2022patchrot,
+  title={PatchRot: A Self-Supervised Technique for Training Vision Transformers},
+  author={Chhabra, Sachin and Dutta, Prabal Bijoy and Venkateswara, Hemanth and Li, Baoxin},
+  journal={arXiv preprint arXiv:2210.15722},
+  year={2022}
+}
+```
