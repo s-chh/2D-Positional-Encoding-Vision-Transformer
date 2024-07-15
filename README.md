@@ -197,24 +197,24 @@ Below are the base training and network details used in the experiments.
     <td>2</td>
     <td></td>
     <td></td>
-    <td>Learning Rate Decay</td>
-    <td> Cosine  </td>
+    <td>Warmup schedule</td>
+    <td> Linear  </td>
   </tr>
   <tr>
     <td>Dropout </td>
     <td>0.1</td>
     <td></td>
     <td></td>
-    <td>Learning Rate</td>
-    <td> 5e-4  </td>
+    <td>Learning Rate Decay Schedule</td>
+    <td> Cosine  </td>
   </tr>
   <tr>
     <td>Parameters </td>
     <td>820k</td>
     <td></td>
     <td></td>
-    <td>Learning Rate</td>
-    <td> 5e-4  </td>
+    <td>Minimum Learning Rate</td>
+    <td> 1e-5  </td>
   </tr>
 </table>
 <br>
