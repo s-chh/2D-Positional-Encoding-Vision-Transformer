@@ -7,7 +7,12 @@ Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnabl
   <li>Network used here in a scaled-down version of the original ViT with only 800k parameters</a>. </li>
   <li>Works with small datasets by using a smaller patch size of 4.</li>
 </ul>  
+
+Appreciate any feedback I can get on this. 
 <br>
+If you want me to include any new positional embedding, please raise it as an issue.
+<br><br>
+
 
 ## Run commands (also available in <a href="scripts.sh">scripts.sh</a>): <br>
 Different positional embeddings can be chosen using the <strong>pos_embed</strong> argument. Example:
@@ -222,11 +227,6 @@ Below are the base training and network details used in the experiments.
 </table>
 <br>
 
-<br>
-Appreciate any feedback I can get on this. 
-<br>
-If you want me to include any new positional embedding, please raise it as an issue.
-<br>
 Note: This repo is built upon the following GitHub repo: <a href="https://github.com/s-chh/PyTorch-Scratch-Vision-Transformer-ViT">Vision Transformers from Scratch in PyTorch</a>
 
 ### Citations
