@@ -3,7 +3,7 @@ Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnabl
 <ul>
   <li>Works by splitting dimensions into two parts and implements 1D positional embeddings on each part.</li>
   <li>One part uses the x-positions sequence, and the other uses y-positions. Check below for more details.</li>
-  <li>Classification token is handled differently in all methods. Check below for more details. <a href="splitting-x-and-y-axis-to-multiple-1d-positonal-embeddings">below</a></li>
+  <li>Classification token is handled differently in all methods. Check below for more details.</li>
   <li>Network used here in a scaled-down version of the original ViT with only 800k parameters</a>. </li>
   <li>Works with small datasets by using a smaller patch size of 4.</li>
 </ul>  
