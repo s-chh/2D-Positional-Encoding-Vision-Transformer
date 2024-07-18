@@ -52,7 +52,7 @@ The dataset can be changed using the dataset argument.
 <br>
 
 ## Results
-Results on test sets of different datasets when ViT is trained using different positional embeddings. 
+Test set accuracy when ViT is trained using different positional embeddings. 
 <table>
   <tr>
     <th>Positional Encoding Type</th>
