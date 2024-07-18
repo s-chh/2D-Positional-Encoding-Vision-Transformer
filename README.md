@@ -147,7 +147,7 @@ Comparison of additional learned parameters added by different positional embedd
   </tr>
   <tr>
     <td>Learnable</td>
-    <td>Number of Patches * Embed dim</td>
+    <td>Number of Patches x Embed dim</td>
     <td>64 x 128 = 8192</td>
   </tr>
   <tr>
@@ -157,8 +157,9 @@ Comparison of additional learned parameters added by different positional embedd
   </tr>
   <tr>
     <td>Relative</td>
-    <td> (2 * max_relative_distance + 1 + 1) * (Embed dim//(2 * Number of heads)) * 2 * 2 per encoder block</td>
-    <td> (2 x 2 + 1 + 1) x (128/4/2) x 2 x 6 = 9216 </td>
+    <td> (2 x max_relative_distance + 1 + 1)  x  Embed_dim/(2 x Number_of_attention_heads) x 2 x 2 x Number_of_encoder_blocks
+    </td>
+    <td> (2 x 2 + 1 + 1) x (128/(2 x 4)) x 2 x 2 x 6 = 2304   </td>
   </tr>
   <tr>
     <td>Rotary (Rope) </td>
