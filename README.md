@@ -157,8 +157,8 @@ Comparison of additional learned parameters added by different positional embedd
   </tr>
   <tr>
     <td>Relative</td>
-    <td> (2 * max_relative_distance + 1 + 1) * Embed dim * 2 per encoder block</td>
-    <td> (2 x 2 + 1 + 1) x 128 x 2 x 6 = 9216 </td>
+    <td> (2 * max_relative_distance + 1 + 1) * (Embed dim//(2 * Number of heads)) * 2 * 2 per encoder block</td>
+    <td> (2 x 2 + 1 + 1) x (128/4/2) x 2 x 6 = 9216 </td>
   </tr>
   <tr>
     <td>Rotary (Rope) </td>
