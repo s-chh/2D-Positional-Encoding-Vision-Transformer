@@ -22,10 +22,7 @@ class Solver(object):
         
         # Push to GPU
         if self.args.is_cuda:
-            print("Using GPU")
             self.model = self.model.cuda()
-        else:
-            print("Cuda not available.")
 
         # Option to load pretrained model
         if self.args.load_model:
