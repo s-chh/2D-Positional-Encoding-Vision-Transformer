@@ -8,6 +8,8 @@ Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnabl
   <li>Works with small datasets by using a smaller patch size of 4.</li>
 </ul>  
 
+[ss](https://github.com/s-chh/Vision-Transformer-ViT-Positional-Embeddings?tab=readme-ov-file#splitting-x-and-y-axis-to-multiple-1d-positonal-embeddings)
+
 Appreciate any feedback I can get on this. 
 <br>
 If you want me to include any new positional embedding, please raise it as an issue.
