@@ -94,7 +94,7 @@ To handle this, the embedding dimensions are split into two parts. One part uses
 <img src="figures/yaxis.jpg" width="1000" ></img>
 <br>
 The x and y-axis sequences are replicated using get_x_positions and get_y_positions in the <a href="utils.py">utils.py</a> file.
-This provides combined 2-D spatial positioning of patches to the Vision Transformer.
+This provides combined 2-D spatial positioning of patches to the Vision Transformer. Example below:
 <br>
 <br>
 <img src="figures/xy_combined.jpg" width="500" ></img>
