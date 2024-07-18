@@ -5,7 +5,7 @@ from torch import optim
 import matplotlib.pyplot as plt
 from data_loader import get_loader
 from vit_model import VisionTransformer
-from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.metrics import accuracy_score
 
 
 class Solver(object):
@@ -66,21 +66,18 @@ class Solver(object):
         # Compute loss, accuracy and confusion matrix
         loss = self.loss_fn(all_logits, all_labels).item()
         acc  = accuracy_score(y_true=all_labels, y_pred=all_pred)
-        cm   = confusion_matrix(y_true=all_labels, y_pred=all_pred, labels=range(self.args.n_classes))
-
-        return acc, cm, loss
+        
+        return acc, loss
 
     def test(self, train=True):
         if train:
             # Test using train loader
-            acc, cm, loss = self.test_dataset(self.train_loader)
-            print(f"Train acc: {acc:.2%}\tTrain loss: {loss:.4f}\nTrain Confusion Matrix:")
-            print(cm)
+            acc, loss = self.test_dataset(self.train_loader)
+            print(f"Train acc: {acc:.2%}\tTrain loss: {loss:.4f}")
 
         # Test using test loader
-        acc, cm, loss = self.test_dataset(self.test_loader)
-        print(f"Test acc: {acc:.2%}\tTest loss: {loss:.4f}\nTest Confusion Matrix:")
-        print(cm)
+        acc, loss = self.test_dataset(self.test_loader)
+        print(f"Test acc: {acc:.2%}\tTest loss: {loss:.4f}")
 
         return acc, loss
 
