@@ -53,30 +53,33 @@ Results on test sets of different datasets when ViT is trained using different p
 <table>
   <tr>
     <th>Positional Encoding Type</th>
-    <th>FashionMNIST</th>
-    <th>SVHN</th>
     <th>CIFAR10</th>
     <th>CIFAR100</th>
   </tr>
   <tr>
     <td>No Position</td>
-    <td></td>
+    <td>79.63</td>
+    <td>53.25</td>
   </tr>
   <tr>
     <td>Learnable</td>
-    <td></td>
+    <td>86.52</td>
+    <td>60.87</td>
   </tr>
   <tr>
     <td>Sinusoidal (Absolute)</td>
-    <td></td>
+    <td>86.09</td>
+    <td>59.73</td>
   </tr>
   <tr>
     <td>Relative</td>
-    <td></td>
+    <td>90.57</td>
+    <td>65.11</td>
   </tr>
   <tr>
     <td>Rotary (Rope) </td>
-    <td></td>
+    <td>88.49</td>
+    <td>62.88</td>
   </tr>
 </table>
 <br>
