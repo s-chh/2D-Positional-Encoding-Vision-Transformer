@@ -5,7 +5,6 @@ import datetime
 from solver import Solver
 from utils import print_args
 
-    
 
 def main(args):
     # Create required directories if they don't exist
@@ -26,6 +25,7 @@ def update_args(args):
     args.is_cuda     = torch.cuda.is_available()  # Check GPU availability
     return args
 
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='2D Positional Embeddings for Vision Transformer')
 
@@ -43,7 +43,7 @@ if __name__ == '__main__':
     parser.add_argument('--output_path', type=str, default='./outputs', help='path to store training graphs and tsne plots')
 
     # Data arguments
-    parser.add_argument('--dataset', type=str, default='mnist', choices=['mnist', 'fashionmnist', 'svhn', 'cifar10', 'cifar100'], help='dataset to use')
+    parser.add_argument('--dataset', type=str, default='cifar10', help='dataset to use')
     parser.add_argument("--image_size", type=int, default=32, help='image size')
     parser.add_argument("--patch_size", type=int, default=4, help='patch Size')
     parser.add_argument('--data_path', type=str, default='./data/', help='path to store downloaded dataset')
