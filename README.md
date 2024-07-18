@@ -12,7 +12,7 @@ Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnabl
 
 Appreciate any feedback I can get on this. 
 <br>
-If you want me to include any new positional embedding, please raise it as an issue.
+If you want me to include any new positional embedding, feel free to raise it as an issue.
 <br><br>
 
 
