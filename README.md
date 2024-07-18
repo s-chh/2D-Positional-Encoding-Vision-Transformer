@@ -105,7 +105,7 @@ Many of the Positional Embeddings were designed to work without classification t
 <table>
   <tr>
     <th>Positional Encoding Type</th>
-    <th>Classification Token's positional embeddin</th>
+    <th>Classification Token's Positional Embedding</th>
   </tr>
   <tr>
     <td>No Position</td>
@@ -159,7 +159,7 @@ Comparison of additional learned parameters added by different positional embedd
     <td>Relative</td>
     <td> (2 x max_relative_distance + 1 + 1)  x  Embed_dim/(2 x Number_of_attention_heads) x 2 x 2 x Number_of_encoder_blocks
     </td>
-    <td> (2 x 2 + 1 + 1) x (128/(2 x 4)) x 2 x 2 x 6 = 2304   </td>
+    <td> (2 x 2 + 1 + 1) x 128/(2 x 4) x 2 x 2 x 6 = 2304   </td>
   </tr>
   <tr>
     <td>Rotary (Rope) </td>
