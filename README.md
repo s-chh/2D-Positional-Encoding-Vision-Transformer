@@ -73,8 +73,8 @@ Results on test sets of different datasets when ViT is trained using different p
   </tr>
   <tr>
     <td>Relative</td>
-    <td>90.57</td>
-    <td>65.11</td>
+    <td><strong>90.57</strong></td>
+    <td><strong>65.11</strong></td>
   </tr>
   <tr>
     <td>Rotary (Rope) </td>
