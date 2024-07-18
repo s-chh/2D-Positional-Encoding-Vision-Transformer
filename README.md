@@ -136,7 +136,7 @@ Many of the Positional Embeddings were designed to work without classification t
 <br>
 
 ## Parameters Comparison:
-Comparison of additional learned parameters added by different positional embeddings. 
+Comparison of additional parameters added by different positional embeddings. 
 <table>
   <tr>
     <th>Positional Encoding Type</th>
