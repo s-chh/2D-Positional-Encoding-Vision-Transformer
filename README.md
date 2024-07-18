@@ -102,27 +102,29 @@ Many of the Positional Embeddings were designed to work without classification t
 <table>
   <tr>
     <th>Positional Encoding Type</th>
-    <th>Classification Token</th>
+    <th>Classification Token's positional embeddin</th>
   </tr>
   <tr>
     <td>No Position</td>
-    <td>No positional embedding added to the Classification Token.</td>
+    <td>No positional embedding added.</td>
   </tr>
   <tr>
     <td>Learnable</td>
-    <td>Learnable Classification Token also learns its positional embedding.</td>
+    <td>Classification token learns its positional embedding.</td>
   </tr>
   <tr>
     <td>Sinusoidal (Absolute)</td>
-    <td>No positional embedding is provided to the Classification Token. Instead, the Classification Token learns its positional embedding.</td>
+    <td>Sinusoidal positional embedding is provided to the patch tokens only, and the classification token learns its positional embedding.</td>
   </tr>
   <tr>
     <td>Relative</td>
-    <td>One solution is not to use the Classification Token. Instead, a separate index (used 0 here) in the embedding lookup tables represents distances to the Classification token.</td>
+    <td>Relative positional embedding uses relative distance between tokens to provide positional information. However, the classification token is always the first and should not be considered when calculating relative distances. 
+      One solution is not to consider the distances to the classification token. 
+      Instead, I used a fixed separate index (0 here) in the embedding lookup tables to represent the distance from all the tokens to the classification token.</td>
   </tr>
   <tr>
     <td>Rotary (Rope) </td>
-    <td>Sequences of patches start at 1 (instead of 0), and 0 represents the position of the Classification Token. Using a 0 index for Classification Token results in no change/rotation.</td>
+    <td> X and Y positions starts at 1 instead of 0. 0th position is used to indicate the position of classification token (the first position). This results in no change/rotation to classification token. The rest of the tokens are handled normally.</td>
   </tr>
 </table>
 <br>
