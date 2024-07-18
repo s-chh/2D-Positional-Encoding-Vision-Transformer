@@ -87,7 +87,7 @@ A naive way to apply 1-D positional embedding is to apply it directly on the seq
 
 To handle this, the embedding dimensions are split into two parts. One part uses the x-axis position sequence, and the other part uses the y-axis position sequence.
 2-D positioning is split into two 1-D positions: 
-<img src="figures/xaxis.jpg" width="700" ></img>
+<img src="figures/xaxis.jpg" width="700" ></img><br>
 <img src="figures/yaxis.jpg" width="700" ></img>
 <br>
 The x and y-axis sequences are replicated using get_x_positions and get_y_positions in the utils.py file.
