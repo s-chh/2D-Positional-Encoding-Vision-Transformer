@@ -124,7 +124,7 @@ Many of the Positional Embeddings were designed to work without classification t
   </tr>
   <tr>
     <td>Rotary (Rope) </td>
-    <td> X and Y positions starts at 1 instead of 0. 0th position is used to indicate the position of classification token (the first position). This results in no change/rotation to classification token. The rest of the tokens are handled normally.</td>
+    <td> X and Y positions start at 1 instead of 0. The 0th index indicates the position of the classification token and results in no change/rotation to the classification token. The rest of the tokens are handled normally.</td>
   </tr>
 </table>
 <br>
