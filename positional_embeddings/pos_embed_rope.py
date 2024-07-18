@@ -55,8 +55,8 @@ class RotatoryPositionEmbedding2D(nn.Module):
 		thetas 	   = torch.repeat_interleave(thetas, 2, 0)                                      # E//2
 		thetas 	   = torch.pow(10000, thetas)                                                   # E//2
 		values 	   = sequence * thetas                                                     		# S, 1 * E//2 -> S, E//2
-		cos_values = torch.cos(values).unsqueeze(0).unsqueeze(0)		                   		# N, E//2     -> 1, 1, N, E//2      Precompute and store cos values
-		sin_values = torch.sin(values).unsqueeze(0).unsqueeze(0)		                   		# N, E//2     -> 1, 1, N, E//2      Precompute and store sin values
+		cos_values = torch.cos(values).unsqueeze(0).unsqueeze(0)		                   		# S, E//2     -> 1, 1, S, E//2      Precompute and store cos values
+		sin_values = torch.sin(values).unsqueeze(0).unsqueeze(0)		                   		# S, E//2     -> 1, 1, S, E//2      Precompute and store sin values
 		return sin_values, cos_values		
 
 
