@@ -93,7 +93,9 @@ To handle this, the embedding dimensions are split into two parts. One part uses
 The x and y-axis sequences are replicated using get_x_positions and get_y_positions in the utils.py file.
 This provides combined 2-D spatial positioning of patches to the Vision Transformer.
 <br>
+<br>
 <img src="figures/xy_combined.jpg" width="500" ></img>
+<br>
 
 ## Handling Classification Token:
 Many of the Positional Embeddings were designed to work without classification tokens. When a classification token is present, some techniques (Sinusoidal, Relative, and Rotary) must be adapted.
