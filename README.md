@@ -6,6 +6,7 @@ Implemented Positional Encodings: <strong>No Position</strong>, <strong>Learnabl
   <li>Classification token is handled differently in all methods. Check below for more details.</li>
   <li>Network used here in a scaled-down version of the original ViT with only 800k parameters</a>. </li>
   <li>Works with small datasets by using a smaller patch size of 4.</li>
+  <li>Datasets tested: CIFAR10 and CIFAR100</li>
 </ul>  
 <br>
 
