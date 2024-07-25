@@ -1,10 +1,10 @@
 import torch
 import torch.nn as nn
-from positional_embeddings.pos_embed_none import EmbedLayerWithNone
-from positional_embeddings.pos_embed_learn import EmbedLayerWithLearn
-from positional_embeddings.pos_embed_sinusoidal import EmbedLayerWithSinusoidal
-from positional_embeddings.pos_embed_relative import SelfAttentionWithRelative
-from positional_embeddings.pos_embed_rope import SelfAttentionWithRope
+from positional_encodings.pos_embed_none import EmbedLayerWithNone
+from positional_encodings.pos_embed_learn import EmbedLayerWithLearn
+from positional_encodings.pos_embed_sinusoidal import EmbedLayerWithSinusoidal
+from positional_encodings.pos_embed_relative import SelfAttentionWithRelative
+from positional_encodings.pos_embed_rope import SelfAttentionWithRope
 
 
 # B -> Batch Size
