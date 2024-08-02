@@ -2,10 +2,10 @@
 Implemented 2D Positional Encodings/Embeddings: <strong>No Position</strong>, <strong>Learnable</strong>, <strong>Sinusoidal (Absolute)</strong>, <strong>Relative</strong>, and <strong>Rotary (RoPe)</strong>.
 <ul>
   <li>Works by splitting dimensions into two parts and implements 1D positional encoding on each part.</li>
-  <li>One part uses the x-positions sequence, and the other uses y-positions. Check below for more details.</li>
-  <li>Classification token is handled differently in all methods. Check below for more details.</li>
+  <li>One part uses the x-positions sequence, and the other uses y-positions. More details below.</li>
+  <li>Classification token is handled differently in all methods. More details below.</li>
   <li>Network used here in a scaled-down version of the original ViT with only 800k parameters</a>. </li>
-  <li>Works with small datasets by using a smaller patch size of 4.</li>
+  <li>Results on small datasets with patch size of 4.</li>
   <li>Datasets tested: CIFAR10 and CIFAR100</li>
 </ul>  
 <br>
@@ -46,7 +46,7 @@ Different positional encoding can be chosen using the <strong>pos_embed</strong>
     <td>python main.py --dataset cifar10 --pos_embed <strong>rope</strong></td>
   </tr>
 </table>
-Relative Positional Encoding uses a "max_relative_distance" hyper-parameter to clamp distances between -max_relative_distance and max_relative_distance (referred to as k in paper).
+Relative Positional Encoding uses a "max_relative_distance" hyper-parameter to clamp distances between -max_relative_distance and max_relative_distance (referred to as k in the original paper).
 <br>
 The dataset can be changed using the dataset argument.
 <br>
@@ -93,7 +93,7 @@ A naive way to apply 1-D positional Encoding is to apply it directly to the sequ
 <img src="figures/naive.jpg" width="1000" ></img>
 
 To handle this, the encoding dimensions are split into two parts. One part uses the x-axis position sequence, and the other part uses the y-axis position sequence.
-2-D positioning is split into two 1-D positions: 
+2D positions is split into two 1D positions: 
 <img src="figures/xaxis.jpg" width="1000" ></img><br>
 <img src="figures/yaxis.jpg" width="1000" ></img>
 <br>
