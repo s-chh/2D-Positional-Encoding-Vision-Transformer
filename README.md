@@ -93,7 +93,6 @@ Instead of flattening image patches directly, we encode spatial information sepa
 - X-axis encoding applies 1D positional encoding to horizontal sequences.
 - Y-axis encoding applies 1D positional encoding to vertical sequences.
 
-The resulting encodings combine to represent 2D spatial positioning.  
 Below is a visualization:  
 - **X-axis Encoding**  
   ![X-axis](figures/xaxis.jpg)  
@@ -101,7 +100,7 @@ Below is a visualization:
   ![Y-axis](figures/yaxis.jpg)
   
 The x and y-axis sequences are replicated using [get_x_positions](https://github.com/s-chh/2D-Positional-Encoding-Vision-Transformer/blob/ea815c4481508d2439e2cdb4a49f770100515e4b/utils.py#L11) and [get_y_positions](https://github.com/s-chh/2D-Positional-Encoding-Vision-Transformer/blob/ea815c4481508d2439e2cdb4a49f770100515e4b/utils.py#L23) functions from the <a href="utils.py">utils.py</a> file.
-This provides combined 2-D spatial positioning of patches to the Vision Transformer. Example below:
+The resulting encodings combine to represent 2D spatial positioning.
 <br>
 <br>
 <img src="figures/xy_combined.jpg" width="500" ></img>
