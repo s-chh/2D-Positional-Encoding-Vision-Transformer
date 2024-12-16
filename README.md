@@ -1,22 +1,15 @@
 # 2D Positional Encodings for Vision Transformers (ViT)
-Implemented 2D Positional Encodings: <strong>No Position</strong>, <strong>Learnable</strong>, <strong>Sinusoidal (Absolute)</strong>, <strong>Relative</strong>, and <strong>Rotary (RoPe)</strong>.
+2D-Positional Encodings Available: <strong>No Position</strong>, <strong>Learnable</strong>, <strong>Sinusoidal (Absolute)</strong>, <strong>Relative</strong>, and <strong>Rotary (RoPe)</strong>.
 <ul>
   <li>Works by splitting dimensions into two parts and implements 1D positional encoding on each part.</li>
-  <li>One part uses the x-positions sequence, and the other uses y-positions. More details below.</li>
-  <li>Classification token is handled differently in all methods. More details below.</li>
+  <li>One part uses the x-positions sequence, and the other uses y-positions. More details [below](#splitting-X-and-Y-axis-to-Multiple-1D-Positional-Encoding)</li>
+  <li>Classification token is handled differently in all methods. More details [below](#handling-classification-token) </li>
+  <li>Results on CIFAR10 and CIFAR100 datasets with patch size of 4.</li>
   <li>Network used here in a scaled-down version of the original ViT with only 800k parameters</a>. </li>
-  <li>Results on small datasets with patch size of 4.</li>
-  <li>Datasets tested: CIFAR10 and CIFAR100</li>
 </ul>  
 <br>
 
-
-
-Appreciate any feedback I can get on this. 
-<br>
-If you want me to include any new positional encoding, feel free to raise it as an issue.
-<br><br>
-
+I appreciate any feedback on this. 
 
 ## Run commands (also available in <a href="scripts.sh">scripts.sh</a>): <br>
 Different positional encoding can be chosen using the <strong>pos_embed</strong> argument. Example:
