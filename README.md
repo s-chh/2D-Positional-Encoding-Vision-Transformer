@@ -22,32 +22,13 @@ python main.py --dataset cifar10 --pos_embed [TYPE]
 ```
 
 Replace ```TYPE``` with one of the following:
-<table>
-  <tr>
-    <th>Positional Encoding Type</th>
-    <th>Command Argument</th>
-  </tr>
-  <tr>
-    <td>No Position</td>
-    <td>`--pos_embed none`</td>
-  </tr>
-  <tr>
-    <td>Learnable</td>
-    <td>`--pos_embed learn`</td>
-  </tr>
-  <tr>
-    <td>Sinusoidal (Absolute)</td>
-    <td>`--pos_embed sinusoidal`</td>
-  </tr>
-  <tr>
-    <td>Relative</td>
-    <td>`--pos_embed relative --max_relative_distance 2`</td>
-  </tr>
-  <tr>
-    <td>Rotary (Rope) </td>
-    <td>`--pos_embed rope`</td>
-  </tr>
-</table>
+| Positional Encoding Type | Command Argument                          |
+|--------------------------|-------------------------------------------|
+| No Position              | `--pos_embed none`                       |
+| Learnable                | `--pos_embed learn`                      |
+| Sinusoidal (Absolute)    | `--pos_embed sinusoidal`                 |
+| Relative                 | `--pos_embed relative --max_relative_distance 2` |
+| Rotary (RoPe)            | `--pos_embed rope`                       |
 
 - Use the ```--dataset``` argument to switch between CIFAR10 and CIFAR100.
 - For relative encoding, adjust the ```--max_relative_distance``` parameter as needed.
