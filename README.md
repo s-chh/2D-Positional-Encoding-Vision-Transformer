@@ -81,7 +81,7 @@ Below is a visualization:
   ![Y-axis](figures/yaxis.jpg)
   
 The x and y-axis sequences are replicated using [get_x_positions](https://github.com/s-chh/2D-Positional-Encoding-Vision-Transformer/blob/ea815c4481508d2439e2cdb4a49f770100515e4b/utils.py#L11) and [get_y_positions](https://github.com/s-chh/2D-Positional-Encoding-Vision-Transformer/blob/ea815c4481508d2439e2cdb4a49f770100515e4b/utils.py#L23) functions from the <a href="utils.py">utils.py</a> file.
-The resulting encodings combine to represent 2D spatial positioning.
+The resulting encodings are combined to represent 2D spatial positioning.
 <br>
 <br>
 <img src="figures/xy_combined.jpg" width="500" ></img>
