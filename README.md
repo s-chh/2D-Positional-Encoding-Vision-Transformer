@@ -22,8 +22,6 @@ python main.py --dataset cifar10 --pos_embed [TYPE]
 ```
 
 Replace ```TYPE``` with one of the following:
-
-Different positional encoding can be applied by changing the ```pos_embed``` argument. Example:
 <table>
   <tr>
     <th>Positional Encoding Type</th>
@@ -79,8 +77,8 @@ Test set accuracy when ViT is trained using different positional Encoding.
   </tr>
   <tr>
     <td>Relative</td>
-    <td>**90.57**</td>
-    <td>**65.11**</td>
+    <td><strong>90.57</strong></td>
+    <td><strong>65.11</strong></td>
   </tr>
   <tr>
     <td>Rotary (Rope) </td>
