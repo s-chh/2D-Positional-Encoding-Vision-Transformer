@@ -22,7 +22,7 @@ python main.py --dataset cifar10 --pos_embed [TYPE]
 ```
 
 Replace ```TYPE``` with one of the following:
-| Positional Encoding Type | Command Argument                          |
+| Positional Encoding Type |  Argument                                |
 |--------------------------|-------------------------------------------|
 | No Position              | `--pos_embed none`                       |
 | Learnable                | `--pos_embed learn`                      |
