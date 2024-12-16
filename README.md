@@ -31,28 +31,28 @@ Different positional encoding can be applied by changing the ```pos_embed``` arg
   </tr>
   <tr>
     <td>No Position</td>
-    <td>--pos_embed none</td>
+    <td>`--pos_embed none`</td>
   </tr>
   <tr>
     <td>Learnable</td>
-    <td>--pos_embed learn</td>
+    <td>`--pos_embed learn`</td>
   </tr>
   <tr>
     <td>Sinusoidal (Absolute)</td>
-    <td>--pos_embed sinusoidal</td>
+    <td>`--pos_embed sinusoidal`</td>
   </tr>
   <tr>
     <td>Relative</td>
-    <td>--pos_embed relative --max_relative_distance 2</td>
+    <td>`--pos_embed relative --max_relative_distance 2`</td>
   </tr>
   <tr>
     <td>Rotary (Rope) </td>
-    <td>--pos_embed rope</td>
+    <td>`--pos_embed rope`</td>
   </tr>
 </table>
 
-Use the ```--dataset``` argument to switch between CIFAR10 and CIFAR100.
-For relative encoding, adjust the ```--max_relative_distance``` parameter as needed.
+- Use the ```--dataset``` argument to switch between CIFAR10 and CIFAR100.
+- For relative encoding, adjust the ```--max_relative_distance``` parameter as needed.
 
 ## Results
 Test set accuracy when ViT is trained using different positional Encoding. 
