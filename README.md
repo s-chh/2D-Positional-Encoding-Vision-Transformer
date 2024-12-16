@@ -5,7 +5,7 @@ This repository explores various 2D positional encoding strategies for Vision Tr
 - **Learnable**
 - **Sinusoidal (Absolute)**
 - **Relative**
-- **Rotary (RoPe)**
+- **Rotary Position Embedding (RoPe)**
 
 The encodings are tested on CIFAR10 and CIFAR100 datasets with a compact ViT architecture (800k parameters).  
 
