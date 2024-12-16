@@ -7,12 +7,17 @@
   <li>Results on CIFAR10 and CIFAR100 datasets with patch size of 4.</li>
   <li>Network used here in a scaled-down version of the original ViT with only 800k parameters</a>. </li>
 </ul>  
-<br>
 
 I appreciate any feedback on this. 
+<br>
 
 ## Run commands (also available in <a href="scripts.sh">scripts.sh</a>): <br>
-Different positional encoding can be chosen using the <strong>pos_embed</strong> argument. Example:
+
+```
+python main.py --dataset cifar10 --pos_embed learn
+```
+
+Different positional encoding can be applied by changing the <strong>pos_embed</strong> argument. Example:
 <table>
   <tr>
     <th>Positional Encoding Type</th>
